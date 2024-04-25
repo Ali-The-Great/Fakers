@@ -1,0 +1,29 @@
+﻿@page "/"
+
+@code {
+    [Inject]
+    public required NavigationManager NavigationManager { get; set; }
+
+    private void NavigateTo(string uri)
+    {
+        NavigationManager.NavigateTo(uri);
+    }
+}
+
+<PageTitle>Fakers</PageTitle>
+
+<body>
+    <div class="main-container">
+        <div class="welcome-message">
+            <h1>Welcome to Fakers</h1>
+        </div>
+        <div class="additional-words">
+            <p>Create your own fake digital identity for secure and anonymous browsing.</p>  
+        </div>
+        <div>
+            <a class="button-link" href="@($"{NavigationManager.BaseUri}Signin")">Sign In</a>
+            <a class="button-link" href="@($"{NavigationManager.BaseUri}Login")">Log In</a>
+            <a class="button-link" href="@($"{NavigationManager.BaseUri}FreeGen")">Try it for free</a>
+        </div>
+    </div>
+</body>

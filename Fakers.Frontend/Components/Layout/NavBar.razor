@@ -1,0 +1,23 @@
+﻿@code {
+    [Inject]
+    public required NavigationManager NavigationManager { get; set; }
+
+    private void NavigateTo(string uri)
+    {
+        NavigationManager.NavigateTo(uri);
+    }
+}
+
+<div class="navbar">
+    <div class="navbar-brand">
+        Fakers
+    </div>
+    <div class="navbar-links">
+        <a href="@NavigationManager.BaseUri">Home</a>
+        <a href="@($"{NavigationManager.BaseUri}About")">About</a>
+        <a href="@($"{NavigationManager.BaseUri}Pricing")">Pricing</a>
+        <a href="@($"{NavigationManager.BaseUri}Login")">Log In</a>
+        <a href="@($"{NavigationManager.BaseUri}Signin")">Sign In</a>
+        <a href="@($"{NavigationManager.BaseUri}FreeGen")">Free Generation</a>
+    </div>
+</div>

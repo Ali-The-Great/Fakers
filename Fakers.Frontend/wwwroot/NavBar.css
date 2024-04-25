@@ -1,0 +1,31 @@
+/* Navbar Styles with Gruvbox Color Theme */
+.navbar {
+    background-color: #3c3836; /* Gruvbox background with a slightly lighter tone */
+    color: #ebdbb2; /* Gruvbox foreground */
+    padding: 10px 20px;
+    transition: box-shadow 0.3s ease; /* Adding transition for smooth hover effect */
+}
+
+.navbar:hover {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Adding a slight shadow on hover */
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    color: #b8bb26; /* Gruvbox light green */
+}
+
+.navbar-links {
+    display: flex;
+}
+
+.navbar-links a {
+    color: #b8bb26; /* Gruvbox light green */
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+.navbar-links a:hover {
+    text-decoration: underline;
+}
+

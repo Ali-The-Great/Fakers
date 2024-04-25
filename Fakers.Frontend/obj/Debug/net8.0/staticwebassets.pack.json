@@ -1,0 +1,37 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Chloe\\Documents\\Projects\\C#\\Fakers\\Fakers.Frontend\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Fakers.Frontend.bundle.scp.css",
+      "PackagePath": "staticwebassets\\Fakers.Frontend.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\Chloe\\Documents\\Projects\\C#\\Fakers\\Fakers.Frontend\\wwwroot\\Home.css",
+      "PackagePath": "staticwebassets\\Home.css"
+    },
+    {
+      "Id": "C:\\Users\\Chloe\\Documents\\Projects\\C#\\Fakers\\Fakers.Frontend\\wwwroot\\NavBar.css",
+      "PackagePath": "staticwebassets\\NavBar.css"
+    },
+    {
+      "Id": "C:\\Users\\Chloe\\Documents\\Projects\\C#\\Fakers\\Fakers.Frontend\\wwwroot\\app.css",
+      "PackagePath": "staticwebassets\\app.css"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Fakers.Frontend.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.Fakers.Frontend.props",
+      "PackagePath": "build\\Fakers.Frontend.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.Fakers.Frontend.props",
+      "PackagePath": "buildMultiTargeting\\Fakers.Frontend.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.Fakers.Frontend.props",
+      "PackagePath": "buildTransitive\\Fakers.Frontend.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
