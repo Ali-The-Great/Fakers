@@ -5,15 +5,6 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddRazorComponents();
-builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
-    .AddCookie(options =>{
-        options.AccessDeniedPath = "/access-denied";
-        options.Cookie.Name = "auth_login";
-        options.LoginPath = "/Gen";
-        options.Cookie.MaxAge = TimeSpan.FromMinutes(30);
-    });
-builder.Services.AddAuthorization();
-builder.Services.AddCascadingAuthenticationState();
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -28,8 +19,6 @@ app.UseHttpsRedirection();
 
 app.UseStaticFiles();
 app.UseAntiforgery();
-app.UseAuthentication();
-app.UseAuthorization();
 
 app.MapRazorComponents<App>();
 
