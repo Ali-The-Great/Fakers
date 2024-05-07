@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Fakers.Backend")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+05cc6b08413dcd55c4fe7f1200fb1b277421eca2")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+444dae371401bef04904fc59bf2ab199c2aa148c")]
 [assembly: System.Reflection.AssemblyProductAttribute("Fakers.Backend")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Fakers.Backend")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

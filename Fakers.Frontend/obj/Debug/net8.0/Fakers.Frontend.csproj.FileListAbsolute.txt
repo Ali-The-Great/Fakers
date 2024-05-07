@@ -26,3 +26,8 @@ C:\Users\Chloe\Documents\Projects\C#\Fakers\Fakers.Frontend\obj\Debug\net8.0\ref
 C:\Users\Chloe\Documents\Projects\C#\Fakers\Fakers.Frontend\obj\Debug\net8.0\Fakers.Frontend.pdb
 C:\Users\Chloe\Documents\Projects\C#\Fakers\Fakers.Frontend\obj\Debug\net8.0\Fakers.Frontend.genruntimeconfig.cache
 C:\Users\Chloe\Documents\Projects\C#\Fakers\Fakers.Frontend\obj\Debug\net8.0\ref\Fakers.Frontend.dll
+C:\Users\Chloe\Documents\Projects\C#\Fakers\Fakers.Frontend\obj\Debug\net8.0\Fakers.Frontend.sourcelink.json
+C:\Users\Chloe\Documents\Projects\C#\Fakers\Fakers.Frontend\bin\Debug\net8.0\Fakers.Backend.dll
+C:\Users\Chloe\Documents\Projects\C#\Fakers\Fakers.Frontend\bin\Debug\net8.0\Fakers.Backend.pdb
+C:\Users\Chloe\Documents\Projects\C#\Fakers\Fakers.Frontend\obj\Debug\net8.0\Fakers.Frontend.csproj.AssemblyReference.cache
+C:\Users\Chloe\Documents\Projects\C#\Fakers\Fakers.Frontend\obj\Debug\net8.0\Fakers.F.DD5A982D.Up2Date

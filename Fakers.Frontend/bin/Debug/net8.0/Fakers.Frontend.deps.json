@@ -7,14 +7,27 @@
   "targets": {
     ".NETCoreApp,Version=v8.0": {
       "Fakers.Frontend/1.0.0": {
+        "dependencies": {
+          "Fakers.Backend": "1.0.0"
+        },
         "runtime": {
           "Fakers.Frontend.dll": {}
+        }
+      },
+      "Fakers.Backend/1.0.0": {
+        "runtime": {
+          "Fakers.Backend.dll": {}
         }
       }
     }
   },
   "libraries": {
     "Fakers.Frontend/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Fakers.Backend/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

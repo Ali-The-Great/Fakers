@@ -1,0 +1,12 @@
+C:\Users\Chloe\Documents\Projects\C#\Fakers\Fakers.Backend\bin\Debug\net8.0\Fakers.Backend.deps.json
+C:\Users\Chloe\Documents\Projects\C#\Fakers\Fakers.Backend\bin\Debug\net8.0\Fakers.Backend.dll
+C:\Users\Chloe\Documents\Projects\C#\Fakers\Fakers.Backend\bin\Debug\net8.0\Fakers.Backend.pdb
+C:\Users\Chloe\Documents\Projects\C#\Fakers\Fakers.Backend\obj\Debug\net8.0\Fakers.Backend.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Chloe\Documents\Projects\C#\Fakers\Fakers.Backend\obj\Debug\net8.0\Fakers.Backend.AssemblyInfoInputs.cache
+C:\Users\Chloe\Documents\Projects\C#\Fakers\Fakers.Backend\obj\Debug\net8.0\Fakers.Backend.AssemblyInfo.cs
+C:\Users\Chloe\Documents\Projects\C#\Fakers\Fakers.Backend\obj\Debug\net8.0\Fakers.Backend.csproj.CoreCompileInputs.cache
+C:\Users\Chloe\Documents\Projects\C#\Fakers\Fakers.Backend\obj\Debug\net8.0\Fakers.Backend.sourcelink.json
+C:\Users\Chloe\Documents\Projects\C#\Fakers\Fakers.Backend\obj\Debug\net8.0\Fakers.Backend.dll
+C:\Users\Chloe\Documents\Projects\C#\Fakers\Fakers.Backend\obj\Debug\net8.0\refint\Fakers.Backend.dll
+C:\Users\Chloe\Documents\Projects\C#\Fakers\Fakers.Backend\obj\Debug\net8.0\Fakers.Backend.pdb
+C:\Users\Chloe\Documents\Projects\C#\Fakers\Fakers.Backend\obj\Debug\net8.0\ref\Fakers.Backend.dll
