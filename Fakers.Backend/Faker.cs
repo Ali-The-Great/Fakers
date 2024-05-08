@@ -18,7 +18,7 @@ public class Faker
             str += this._parts[i] + ", ";
         }
 
-        str = str.Remove(str.Length - 2); // removing last ",c"
+        str = str.Remove(str.Length - 2);
 
         return "Generated information: " + str + "\n";
     }
