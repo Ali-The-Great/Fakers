@@ -1,6 +1,26 @@
 ﻿@page "/FreeGen"
-<h3>Free Generator</h3>
+@using Fakers.Backend;
+<h3 style="color: #b8bb26;">Free Generator</h3>
+
+<p style="color: #b8bb26;">@generatedDataList</p>
 
 @code {
+    private string generatedDataList = "";
+    private bool isLoading = true;
 
+    protected override void OnInitialized()
+    {
+        GenerateData();
+    }
+
+    private void GenerateData()
+    {
+        Director director = new Director();
+        ConcreteBuilder builder = new ConcreteBuilder();
+        director.Builder = builder;
+        director.BuildMinimalViableProduct();
+        Faker generatedFaker = builder.GetFaker();
+        generatedDataList = generatedFaker.ListParts();
+        isLoading = false;
+    }
 }

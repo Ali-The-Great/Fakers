@@ -20,6 +20,6 @@ public class Faker
 
         str = str.Remove(str.Length - 2); // removing last ",c"
 
-        return "Product parts: " + str + "\n";
+        return "Generated information: " + str + "\n";
     }
 }
